@@ -8,7 +8,27 @@ import java.awt.event.ActionListener;
 import java.awt.geom.AffineTransform;
 import javax.swing.JPanel;
 import javax.swing.Timer;
+ */
+public class TitlesPanel {
 
+    /**
+     * Конструктор для создания панели с данными.
+     *
+     * @param data Данные для отображения.
+     */
+    public TitlesPanel(String data) {
+        // Реализация конструктора
+    }
+
+    /**
+     * Обновляет данные на панели.
+     *
+     * @param newData Новые данные для отображения.
+     */
+    public void updateData(String newData) {
+        // Реализация метода обновления данных
+    }
+}
 public class TitlesPanel extends JPanel implements ActionListener {
    private Graphics2D g2d;
    private Timer animation;
@@ -66,24 +86,4 @@ public class TitlesPanel extends JPanel implements ActionListener {
       this.doDrawing(g);
    }
 }
- */
-public class TitlesPanel {
 
-    /**
-     * Конструктор для создания панели с данными.
-     *
-     * @param data Данные для отображения.
-     */
-    public TitlesPanel(String data) {
-        // Реализация конструктора
-    }
-
-    /**
-     * Обновляет данные на панели.
-     *
-     * @param newData Новые данные для отображения.
-     */
-    public void updateData(String newData) {
-        // Реализация метода обновления данных
-    }
-}
