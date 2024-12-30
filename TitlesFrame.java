@@ -1,7 +1,26 @@
 import java.awt.Component;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
+* Класс, который представляет собой окно с заголовками.
+ */
+public class TitlesFrame {
 
+    /**
+     * Конструктор для создания окна с заданным заголовком.
+     *
+     * @param title Заголовок окна.
+     */
+    public TitlesFrame(String title) {
+        // Реализация конструктора
+    }
+
+    /**
+     * Отображает окно.
+     */
+    public void display() {
+        // Реализация метода отображения
+    }
+}
 public class TitlesFrame extends JFrame {
    public TitlesFrame() {
       this.initUI();
@@ -24,23 +43,4 @@ public class TitlesFrame extends JFrame {
       });
    }
 }
- * Класс, который представляет собой окно с заголовками.
- */
-public class TitlesFrame {
-
-    /**
-     * Конструктор для создания окна с заданным заголовком.
-     *
-     * @param title Заголовок окна.
-     */
-    public TitlesFrame(String title) {
-        // Реализация конструктора
-    }
-
-    /**
-     * Отображает окно.
-     */
-    public void display() {
-        // Реализация метода отображения
-    }
-}
+ 
