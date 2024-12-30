@@ -6,7 +6,31 @@ import java.awt.Point;
 import java.awt.Shape;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D.Double;
+* Класс для создания различных фигур.
+ */
+public class ShapeFactory {
 
+    /**
+     * Создает прямоугольник с заданными размерами.
+     *
+     * @param width Ширина прямоугольника.
+     * @param height Высота прямоугольника.
+     * @return Прямоугольник.
+     */
+    public static Shape createRectangle(double width, double height) {
+        // Реализация метода
+    }
+
+    /**
+     * Создает круг с заданным радиусом.
+     *
+     * @param radius Радиус круга.
+     * @return Круг.
+     */
+    public static Shape createCircle(double radius) {
+        // Реализация метода
+    }
+}
 public class ShapeFactory {
    public Shape shape;
    public BasicStroke stroke = new BasicStroke(3.0F); // По умолчанию 3 пикселя
@@ -113,28 +137,4 @@ public class ShapeFactory {
    }
 }
 
-* Класс для создания различных фигур.
- */
-public class ShapeFactory {
 
-    /**
-     * Создает прямоугольник с заданными размерами.
-     *
-     * @param width Ширина прямоугольника.
-     * @param height Высота прямоугольника.
-     * @return Прямоугольник.
-     */
-    public static Shape createRectangle(double width, double height) {
-        // Реализация метода
-    }
-
-    /**
-     * Создает круг с заданным радиусом.
-     *
-     * @param radius Радиус круга.
-     * @return Круг.
-     */
-    public static Shape createCircle(double radius) {
-        // Реализация метода
-    }
-}
