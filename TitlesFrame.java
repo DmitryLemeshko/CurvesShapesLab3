@@ -24,3 +24,23 @@ public class TitlesFrame extends JFrame {
       });
    }
 }
+ * Класс, который представляет собой окно с заголовками.
+ */
+public class TitlesFrame {
+
+    /**
+     * Конструктор для создания окна с заданным заголовком.
+     *
+     * @param title Заголовок окна.
+     */
+    public TitlesFrame(String title) {
+        // Реализация конструктора
+    }
+
+    /**
+     * Отображает окно.
+     */
+    public void display() {
+        // Реализация метода отображения
+    }
+}
