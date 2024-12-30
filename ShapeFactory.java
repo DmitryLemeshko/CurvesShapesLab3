@@ -113,3 +113,28 @@ public class ShapeFactory {
    }
 }
 
+* Класс для создания различных фигур.
+ */
+public class ShapeFactory {
+
+    /**
+     * Создает прямоугольник с заданными размерами.
+     *
+     * @param width Ширина прямоугольника.
+     * @param height Высота прямоугольника.
+     * @return Прямоугольник.
+     */
+    public static Shape createRectangle(double width, double height) {
+        // Реализация метода
+    }
+
+    /**
+     * Создает круг с заданным радиусом.
+     *
+     * @param radius Радиус круга.
+     * @return Круг.
+     */
+    public static Shape createCircle(double radius) {
+        // Реализация метода
+    }
+}
