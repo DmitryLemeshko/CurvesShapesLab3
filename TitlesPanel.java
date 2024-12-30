@@ -66,3 +66,24 @@ public class TitlesPanel extends JPanel implements ActionListener {
       this.doDrawing(g);
    }
 }
+ */
+public class TitlesPanel {
+
+    /**
+     * Конструктор для создания панели с данными.
+     *
+     * @param data Данные для отображения.
+     */
+    public TitlesPanel(String data) {
+        // Реализация конструктора
+    }
+
+    /**
+     * Обновляет данные на панели.
+     *
+     * @param newData Новые данные для отображения.
+     */
+    public void updateData(String newData) {
+        // Реализация метода обновления данных
+    }
+}
